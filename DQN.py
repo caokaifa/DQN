@@ -112,7 +112,7 @@ def reward_func(env, x, x_dot, theta, theta_dot):
     r2 = (env.theta_threshold_radians - abs(theta)) / env.theta_threshold_radians - 0.5
     reward = r1 + r2
 
-    # print("-----reward_func=----=",r1, r2,env.x_threshold,env.theta_threshold_radians),
+    print("-----reward_func=----=",r1, r2,env.x_threshold,env.theta_threshold_radians),
     return reward
 
 def main():
