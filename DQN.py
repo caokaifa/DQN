@@ -154,7 +154,7 @@ def main():
         r = copy.copy(reward)
         reward_list.append(r)
         ax.set_xlim(0,300)
-        #ax.cla()
+        ax.cla()
         ax.plot(reward_list, 'g-', label='total_loss')
         plt.pause(0.001)
         
