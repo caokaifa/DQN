@@ -118,10 +118,10 @@ def reward_func(env, x, x_dot, theta, theta_dot):
 def main():
     dqn = DQN() #初始化DQN网络
     episodes = 400
-    print("Collecting Experience....")
+    #print("Collecting Experience....")
     reward_list = []
    
-    plt.ion()
+    plt.ion()ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAINpgWl/4EzIY8i+Dz7E/do8gmv+V1ZBxsACzFnxQJ+v1 caokaifa2015@sina.com
     fig, ax = plt.subplots()
     for i in range(episodes):
         state,info = env.reset()
